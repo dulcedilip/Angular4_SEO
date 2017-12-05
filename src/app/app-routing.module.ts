@@ -7,12 +7,19 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {
     path: 'home',
-    component: HomeComponent
+    component: HomeComponent,
+    pathMatch: 'full'
   },
   {
     path: 'about',
-    component: AboutComponent
-  }
+    component: AboutComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: '',
+    component: HomeComponent,
+    pathMatch: 'full'
+    },
 ];
 
 @NgModule({
