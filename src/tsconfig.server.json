@@ -11,8 +11,7 @@
     "test.ts",
     "**/*.spec.ts"
   ],
-  "angularCompilerOptions": { // Here
-    "genDir": "./dist/ngfactory",
-    "entryModule": "./src/app/app.server.module#AppServerModule"
+  "angularCompilerOptions": { // Here    
+    "entryModule": "./app/app.server.module#AppServerModule"
   }
 }
